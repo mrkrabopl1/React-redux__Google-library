@@ -1,0 +1,39 @@
+.background{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+    height: 100%;
+    top:0;
+    text-align: right;
+
+    background:rgba(100,55,55,1);
+}
+
+.infoBlock{
+    background-color: #61dafb;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
+
+}
+.btn{
+    position: sticky;
+   margin-left: auto;
+    top:10px;
+    width: 50px;
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+}
+.leftColumn{
+     width: 30%;
+     flex-shrink: 0;
+ }
+.description{
+    text-align: left ;
+}

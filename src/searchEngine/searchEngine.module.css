@@ -1,0 +1,104 @@
+.booksCardWrap{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.a{
+    display: inline-block;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+
+    font-size: 16px;
+    padding: 20px;
+    clip-path: circle(20px at 50% 50%);
+}
+.a:active {
+    background-color: red;
+
+    color: white;
+}
+.b{
+    margin:  auto 10px;
+}
+.menuWrapper{
+    background: url("../img/booksShelf.jpg") no-repeat 20% 20% ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.a_cont{
+    margin: 1% 0;
+
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.paginateHolder{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.preloaderHolder{
+    display: flex;
+
+    margin: auto;
+}
+.header{
+    color:white
+}
+.findHolder{
+    margin-bottom: 10px;
+
+    font-size: 20px;
+
+}
+.inputFinder{
+    width: 60%;
+    border-radius: 5px;
+
+    color: dimgrey;
+    border: 0px;
+   line-height: 30px;
+
+
+    outline:none
+
+
+}
+.buttonFind{
+    box-sizing:border-box;
+   display: inline-block;
+    border-radius: 20%;
+    color: white;
+background-color: darkcyan;
+    height: 100%;
+    outline:none;
+    border:0px;
+}
+.buttonFind:focus{
+    border: solid 2px moccasin;
+}
+.inputFinder:focus{
+
+    border: solid 2px lightblue;
+}
+.lengthPage{
+    display: block;
+}
+.finderController{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px ;
+}
+.controlLabel{
+    color: white;
+}
