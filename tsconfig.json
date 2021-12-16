@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "target": "es5",
     "lib": [
       "dom",
@@ -22,6 +22,6 @@
     "noEmit": true
   },
   "include": [
-    "project"
+    "src"
   ]
 }
